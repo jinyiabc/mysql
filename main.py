@@ -1,5 +1,8 @@
 import mysql.connector
 
+from config import PASSWORD
+
+
 class MediumDB():
     def __init__(self):
         pass
@@ -8,7 +11,7 @@ class MediumDB():
         # Config
         config = {
             'user': 'root',
-            'password': 'Hangzhou123',
+            'password': PASSWORD,
             'host': 'localhost',
             'database': 'mediumtutorialdb',
             'port': 3306,
