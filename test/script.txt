@@ -1,0 +1,6 @@
+@echo off
+mysql -u root
+USE mediumtutorialdb
+SELECT * FROM pet;
+EXIT
+echo Exit from MYSQL...
